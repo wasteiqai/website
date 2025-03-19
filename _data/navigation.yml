@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Solutions
+  link: /solutions/
+- name: Features
+  link: /features/
+- name: Testimonials
+  link: /testimonials/
+- name: Contact
+  link: /contact/
