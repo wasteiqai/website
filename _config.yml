@@ -1,0 +1,26 @@
+title: WasteIQ
+description: Intelligent Waste Management Solutions
+url: "https://wasteiqai.github.io/"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Theme settings
+theme: minima
+
+# Collections
+collections:
+  solutions:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
