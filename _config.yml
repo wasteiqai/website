@@ -1,7 +1,7 @@
 title: WasteIQ
 description: Intelligent Waste Management Solutions
-url: "https://wasteiqai.github.io/"
-baseurl: ""
+url: "https://wasteiqai.github.io"
+baseurl: "/website"
 
 # Build settings
 markdown: kramdown
