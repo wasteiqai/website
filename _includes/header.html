@@ -1,17 +1,14 @@
 <header>
     <div class="nav-container">
         <div class="logo">
-            <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="WasteIQ Logo">
-            <div class="logo-text">
-                <span>Waste</span><span>IQ</span>
-            </div>
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="WasteIQ Logo">
         </div>
         <nav>
             <ul>
                 {% for item in site.data.navigation %}
                 <li><a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>{{ item.name }}</a></li>
                 {% endfor %}
-                <li><a href="#" class="cta-button">Request Demo</a></li>
+                <li><a href="{{ site.baseurl }}/contact/" class="cta-button">Request Demo</a></li>
             </ul>
         </nav>
     </div>

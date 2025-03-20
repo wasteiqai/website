@@ -1,10 +1,10 @@
 - name: Home
-  link: /
+  link: /website/
 - name: Solutions
-  link: /solutions/
+  link: /website/solutions/
 - name: Features
-  link: /features/
-- name: Testimonials
-  link: /testimonials/
+  link: /website/features/
+# - name: Testimonials
+#   link: /website/testimonials/
 - name: Contact
-  link: /contact/
+  link: /website/contact/
