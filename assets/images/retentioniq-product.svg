@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Main product frame -->
+  <rect x="50" y="50" width="500" height="300" rx="8" ry="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Header bar -->
+  <rect x="50" y="50" width="500" height="50" rx="8" ry="8" fill="#1a237e"/>
+  <text x="75" y="82" font-family="Arial" font-size="20" font-weight="bold" fill="#ffffff">RetentionIQ Dashboard</text>
+  
+  <!-- Left sidebar -->
+  <rect x="50" y="100" width="120" height="250" fill="#f5f5f5"/>
+  
+  <!-- Menu items -->
+  <rect x="60" y="120" width="100" height="30" rx="4" ry="4" fill="#00bcd4"/>
+  <text x="75" y="140" font-family="Arial" font-size="12" fill="#ffffff">Customer Health</text>
+  
+  <rect x="60" y="160" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="180" font-family="Arial" font-size="12" fill="#333333">Service Calls</text>
+  
+  <rect x="60" y="200" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="220" font-family="Arial" font-size="12" fill="#333333">WhatsApp Bots</text>
+  
+  <rect x="60" y="240" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="260" font-family="Arial" font-size="12" fill="#333333">Churn Prevention</text>
+  
+  <!-- Main content area - Customer Retention Dashboard -->
+  <rect x="180" y="110" width="360" height="50" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="200" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#1a237e">Customer Retention Overview</text>
+  
+  <!-- Service quality gauge -->
+  <circle cx="250" cy="220" r="60" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <path d="M250,220 L250,160 A60,60 0 0,1 302,198 Z" fill="#4caf50"/>
+  <path d="M250,220 L302,198 A60,60 0 0,1 302,242 Z" fill="#ffc107"/>
+  <path d="M250,220 L302,242 A60,60 0 0,1 250,280 Z" fill="#f44336"/>
+  <path d="M250,220 L250,280 A60,60 0 0,1 198,242 Z" fill="#f5f5f5"/>
+  <path d="M250,220 L198,242 A60,60 0 0,1 198,198 Z" fill="#f5f5f5"/>
+  <path d="M250,220 L198,198 A60,60 0 0,1 250,160 Z" fill="#f5f5f5"/>
+  <!-- Gauge pointer -->
+  <path d="M250,220 L270,185" stroke="#333333" stroke-width="2"/>
+  <circle cx="250" cy="220" r="10" fill="#1a237e"/>
+  <text x="230" y="180" font-family="Arial" font-size="12" fill="#333333">Customer Satisfaction</text>
+  
+  <!-- At-risk customers section -->
+  <rect x="350" y="170" width="190" height="110" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="370" y="190" font-family="Arial" font-size="12" font-weight="bold" fill="#333333">At-Risk Customers</text>
+  
+  <!-- Customer rows -->
+  <rect x="360" y="200" width="170" height="20" rx="2" ry="2" fill="#fff4f4"/>
+  <circle cx="370" cy="210" r="5" fill="#f44336"/>
+  <text x="380" y="214" font-family="Arial" font-size="10" fill="#333333">Metropolitan Services</text>
+  
+  <rect x="360" y="225" width="170" height="20" rx="2" ry="2" fill="#fffde7"/>
+  <circle cx="370" cy="235" r="5" fill="#ffc107"/>
+  <text x="380" y="239" font-family="Arial" font-size="10" fill="#333333">City Waste Management</text>
+  
+  <rect x="360" y="250" width="170" height="20" rx="2" ry="2" fill="#f1f8e9"/>
+  <circle cx="370" cy="260" r="5" fill="#4caf50"/>
+  <text x="380" y="264" font-family="Arial" font-size="10" fill="#333333">Green Valley Disposal</text>
+  
+  <!-- Bottom WhatsApp bot section -->
+  <rect x="180" y="300" width="360" height="40" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="190" y="310" width="20" height="20" rx="2" ry="2" fill="#00bcd4"/>
+  <text x="195" y="325" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff">W</text>
+  <text x="220" y="324" font-family="Arial" font-size="12" fill="#333333">27 WhatsApp interventions today</text>
+  
+  <!-- WasteIQ branding -->
+  <text x="525" y="340" font-family="Arial" font-size="10" font-weight="bold" fill="#1a237e">Waste</text>
+  <text x="557" y="340" font-family="Arial" font-size="10" font-weight="bold" fill="#00bcd4">IQ</text>
+</svg> 

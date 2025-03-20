@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Main product frame -->
+  <rect x="50" y="50" width="500" height="300" rx="8" ry="8" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Header bar -->
+  <rect x="50" y="50" width="500" height="50" rx="8" ry="8" fill="#1a237e"/>
+  <text x="75" y="82" font-family="Arial" font-size="20" font-weight="bold" fill="#ffffff">SalesIQ Dashboard</text>
+  
+  <!-- Left sidebar -->
+  <rect x="50" y="100" width="120" height="250" fill="#f5f5f5"/>
+  
+  <!-- Menu items -->
+  <rect x="60" y="120" width="100" height="30" rx="4" ry="4" fill="#00bcd4"/>
+  <text x="75" y="140" font-family="Arial" font-size="12" fill="#ffffff">Sales Performance</text>
+  
+  <rect x="60" y="160" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="180" font-family="Arial" font-size="12" fill="#333333">Call Analytics</text>
+  
+  <rect x="60" y="200" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="220" font-family="Arial" font-size="12" fill="#333333">Agent Scoring</text>
+  
+  <rect x="60" y="240" width="100" height="30" rx="4" ry="4" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="75" y="260" font-family="Arial" font-size="12" fill="#333333">Sales Scripts</text>
+  
+  <!-- Main content area - Performance dashboard -->
+  <rect x="180" y="110" width="360" height="50" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="200" y="140" font-family="Arial" font-size="16" font-weight="bold" fill="#1a237e">Team Performance Overview</text>
+  
+  <!-- Charts and data visualization -->
+  <rect x="180" y="170" width="170" height="120" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <!-- Bar chart -->
+  <rect x="200" y="230" width="20" height="40" fill="#1a237e"/>
+  <rect x="230" y="210" width="20" height="60" fill="#00bcd4"/>
+  <rect x="260" y="190" width="20" height="80" fill="#1a237e"/>
+  <rect x="290" y="170" width="20" height="100" fill="#00bcd4"/>
+  <text x="200" y="190" font-family="Arial" font-size="12" fill="#333333">Close Rate Trend</text>
+  
+  <!-- Pie chart -->
+  <circle cx="425" cy="230" r="60" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <path d="M425,230 L425,170 A60,60 0 0,1 485,230 Z" fill="#1a237e"/>
+  <path d="M425,230 L485,230 A60,60 0 0,1 425,290 Z" fill="#00bcd4"/>
+  <path d="M425,230 L425,290 A60,60 0 0,1 365,230 Z" fill="#4caf50"/>
+  <path d="M425,230 L365,230 A60,60 0 0,1 425,170 Z" fill="#f5f5f5"/>
+  <text x="400" y="190" font-family="Arial" font-size="12" fill="#333333">Call Categories</text>
+  
+  <!-- Bottom agents section -->
+  <rect x="180" y="300" width="360" height="40" rx="4" ry="4" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <circle cx="200" cy="320" r="10" fill="#4caf50"/>
+  <text x="220" y="324" font-family="Arial" font-size="12" fill="#333333">Top Performers: 5 agents improving</text>
+  
+  <!-- WasteIQ branding -->
+  <text x="525" y="340" font-family="Arial" font-size="10" font-weight="bold" fill="#1a237e">Waste</text>
+  <text x="557" y="340" font-family="Arial" font-size="10" font-weight="bold" fill="#00bcd4">IQ</text>
+</svg> 
